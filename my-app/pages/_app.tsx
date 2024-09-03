@@ -8,10 +8,10 @@ import root from 'react-shadow';
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <div>    
-      <q style={{color: "red"}}>This Icon is OUTSIDE the Shadow Dom</q>
-      <MaterialSymbol icon="folder" size={24} fill grade={-25} color='blue' />
+      <p style={{color: "red"}}>This Icon is OUTSIDE the Shadow Dom:</p>
+      <MaterialSymbol icon="folder" size={24} fill grade={-25} color='red' />
       <root.div className="quote">
-        <q style={{color: "yellow"}}>This Icon is INSDOE the Shadow Dom, but only its name appears</q>
+        <p style={{color: "lime"}}>This Icon is INSDOE the Shadow Dom, but only its name appears:</p>
         <MaterialSymbol icon="folder" size={24} fill grade={-25} color='lime' />
       </root.div>
     </div>
