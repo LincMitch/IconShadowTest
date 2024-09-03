@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <p style={{color: "red"}}>This Icon is OUTSIDE the Shadow Dom:</p>
       <MaterialSymbol icon="folder" size={24} fill grade={-25} color='red' />
       <root.div className="quote">
-        <p style={{color: "lime"}}>This Icon is INSDOE the Shadow Dom, but only its name appears:</p>
+        <p style={{color: "lime"}}>This Icon is INSIDE the Shadow Dom, but only its name appears:</p>
         <MaterialSymbol icon="folder" size={24} fill grade={-25} color='lime' />
       </root.div>
     </div>
